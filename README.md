@@ -14,7 +14,14 @@ Kamis 21 Agustus 2025
   ![](IMAGES/sstp.png)  
   3. Setelah itu, kita perlu membuat akun di secret **PPP > Secret > add**
   ![](IMAGES/user.png)  
-  4. Simple nya untuk konfigurasi SSTP server sampai sini sudah cukup.
+  4. Simple nya untuk konfigurasi SSTP server sampai sini sudah cukup.  
+  5. Jika client sudah dikonfigurasi, kita bisa cek melalui tab **active connections**, ada Address baru juga.  
+  ![](IMAGES/zxcv.png)  
+  ![](IMAGES/nwintfc.png)  
+  6. Untuk mengkoneksikan LAN pada 2 site, maka kita harus membuat static routing, terdapat terletak di **IP > ROUTING**.  
+  ![](IMAGES/route.png)  
+  7. Sekarang kita cek koneksi dengan melakukan **ping** pada terminal.
+![](IMAGES/pings.png)  
 
 # Konfigurasi SSTP part 2
   1. Sekarang kita buat sertifikat, di **system > certificate > add**, ada 3 sertifikat yang harus kita buat, untuk yang CA di bagian common name kita isi dengan IP Public router kita.  
@@ -32,4 +39,11 @@ Kamis 21 Agustus 2025
   ![](IMAGES/win.png)  
   8. Sekarang pindahkan file ke windows dan import ke router B.
   ![](IMAGES/copy.png)
-  9. 
+  9. Lanjut set sertifikatnya di PPTP Server
+  ![](IMAGES/certsvr.png)
+  10. Bisa kita lihat, bahwa jika sudah mengunakan sertifikat, encodingnya berubah, yang tadinya mengunakan AE256, sekarang menjadi RC4.
+  ![](IMAGES/rc4.png)  
+
+**Encoding**
+RC4, Lebih simple dan lebih baik dari segi kecepatan  
+AES256, Lebih bagus dari segi keamanan  
