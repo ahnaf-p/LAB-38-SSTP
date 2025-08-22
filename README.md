@@ -101,4 +101,8 @@ RC4, Lebih simple dan lebih baik dari segi kecepatan
 AES256, Lebih bagus dari segi keamanan  
 
 # Kesimpulan
-  Sebuah PPP TUnnel dengan TLS 1.0 Channel. Fitur ini berjalan pada protokol TCP dan Port 443. SSTP tetap bisa digunakan walaupun tanpa sertifikat. 
+  Sebuah PPP TUnnel dengan TLS 1.0 Channel. Fitur ini berjalan pada protokol TCP dan Port 443. SSTP tetap bisa digunakan walaupun tanpa sertifikat.  
+
+
+# Sumber
+Youtube - Citraweb - https://www.youtube.com/watch?v=gRz5lHFsUm8&t=1835s  
