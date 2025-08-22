@@ -91,8 +91,12 @@ Kamis 21 Agustus 2025
 4. lalu buka lagi menu ppp > interface buka **sstp-pusat** lalu di bagian **dial out** masukkan sertificate client tadi di bagian **certificate** lalu jangan lupa centang juga lalu klik **ok** 
 
 ![m](z10.PNG)
+  
+  
 
-**Encoding**
+
+      
+**Encoding**  
 RC4, Lebih simple dan lebih baik dari segi kecepatan  
 AES256, Lebih bagus dari segi keamanan  
 
