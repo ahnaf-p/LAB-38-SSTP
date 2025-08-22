@@ -7,7 +7,6 @@ Kamis 21 Agustus 2025
 # Konfigurasi SSTP
   ![](IMAGES/scrn.png)    
   1. Lakukan dulu basic config sampai Mikrotik terkoneksi ke internet.
-  ![](IMAGES/clien.png)  
   ![](IMAGES/addrs.png)  
   ![](IMAGES/svr.png)  
   ![](IMAGES/msq.png)  
